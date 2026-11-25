@@ -1,0 +1,64 @@
+openjdk version "25.0.5" 2026-10-20 LTS
+OpenJDK Runtime Environment Temurin-25.0.5+8 (build 25.0.5+8-LTS)
+OpenJDK 64-Bit Server VM Temurin-25.0.5+8 (build 25.0.5+8-LTS, mixed mode, sharing)
+| ATIVIDADE_SIMPLES_NACIONAL                     | 0.77 KB          |
+| ATOR                                           | 0.39 KB          |
+| ATOR_CLASSIFICACAO                             | 0.53 KB          |
+| ATOR_CLASSIFICACAO_FUNDAMENTACAO               | 0.46 KB          |
+| CLASSIFICACAO_TRIBUTARIA                       | 2.16 KB          |
+| CLASSIF_NBS_INDOP_LC                           | 0.74 KB          |
+| ENQUADRAMENTO_REGIME_SIMPLES_NACIONAL          | 1.26 KB          |
+| EXCECAO_AD_REM_PRODUTO                         | 0.44 KB          |
+| EXCECAO_AD_REM_SERVICO                         | 0.44 KB          |
+| EXCECAO_AD_VALOREM_PRODUTO                     | 0.45 KB          |
+| EXCECAO_AD_VALOREM_SERVICO                     | 0.45 KB          |
+| EXCECAO_NBS_APLICAVEL                          | 0.43 KB          |
+| EXCECAO_NCM_APLICAVEL                          | 0.43 KB          |
+| FUNDAMENTACAO_CLASSIFICACAO                    | 0.46 KB          |
+| FUNDAMENTACAO_LEGAL                            | 0.26 KB          |
+| GRUPO_ATOR                                     | 0.3 KB           |
+| GRUPO_DFE                                      | 0.28 KB          |
+| INDICADOR_OPERACAO_IBS_CBS                     | 0.48 KB          |
+| LISTA_SERVICOS_LC_116                          | 0.27 KB          |
+| MUNICIPIO                                      | 0.36 KB          |
+| NBS                                            | 0.29 KB          |
+| NBS_APLICAVEL                                  | 0.51 KB          |
+| NCM                                            | 0.25 KB          |
+| NCM_APLICAVEL                                  | 0.51 KB          |
+| PERCENTUAL_REDUCAO                             | 0.47 KB          |
+| REDUTOR                                        | 0.46 KB          |
+| REDUTOR_COMPRA_GOVERNAMENTAL                   | 0.27 KB          |
+| REGIME_APURACAO_SIMPLES_NACIONAL               | 1.15 KB          |
+| SITUACAO_ISS_PAR_ALIQUOTA_SIMPLES_NACIONAL     | 0.72 KB          |
+| SITUACAO_TRIBUTARIA                            | 0.88 KB          |
+| TIPO_DFE                                       | 0.5 KB           |
+| TIPO_DFE_ATIVIDADE_SIMPLES_NACIONAL            | 0.47 KB          |
+| TIPO_DFE_CALCULO_SIMPLES_NACIONAL              | 0.8 KB           |
+| TIPO_DFE_CLASSIFICACAO                         | 0.43 KB          |
+| TIPO_RECEITA_BRUTA_SIMPLES_NACIONAL            | 1.05 KB          |
+| TOMADOR_ESPECIFICO                             | 0.27 KB          |
+| TRANSFERENCIA_CBS_ENTE_GOV                     | 0.27 KB          |
+| TRANSICAO_ALIQUOTA_COMPRA_GOV_SIMPLES_NACIONAL | 0.35 KB          |
+| TRATAMENTO_CLASSIFICACAO                       | 0.46 KB          |
+| TRATAMENTO_TRIBUTARIO                          | 0.89 KB          |
+| TRIBUTO                                        | 0.39 KB          |
+| TRIBUTO_SITUACAO_TRIBUTARIA                    | 0.45 KB          |
+| UF                                             | 0.12 KB          |
+| UNIDADE_MEDIDA                                 | 0.33 KB          |
+| VERSAO_BASE_DADO                               | 0.24 KB          |
++------------------------------------------------+------------------+
+
+[INFO] +------------------------------------------------------+
+| status_final                                         |
++------------------------------------------------------+
+| 🎉 Verificações pós-migração concluídas com sucesso! |
++------------------------------------------------------+
+
+[INFO] Database: jdbc:sqlite:file:./calculadora/db/calculadora-pro.db?date_class=TEXT&foreign_keys=ON (SQLite 3.53)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.727 s
+[INFO] Finished at: 2026-11-25T14:38:29Z
+[INFO] ------------------------------------------------------------------------
+-rw-r--r-- 1 runner runner 5.5M Nov 25 14:38 ./calculadora/db/calculadora-pro.db

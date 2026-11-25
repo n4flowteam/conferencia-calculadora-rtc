@@ -1,0 +1,1 @@
+f1eebd7ce3157423b1a6aaca7dc1d6c3395452c4 2026-11-19 20:05:12 -0300 Merge pull request #16 from ReceitaFederal/release/calculadora-rtc-regime-regular_1_7_2

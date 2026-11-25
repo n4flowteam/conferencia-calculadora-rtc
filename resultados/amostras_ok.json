@@ -1,0 +1,1852 @@
+[
+ {
+  "caso": {
+   "id": 194,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "010",
+    "cClassTrib": "010002",
+    "baseCalculo": "333.33"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "010",
+    "cClassTrib": "010002",
+    "gIBSCBS": {
+     "vBC": "333.33",
+     "gIBSUF": {
+      "pIBSUF": "0.10",
+      "vIBSUF": "0.33"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.33",
+     "gCBS": {
+      "pCBS": "0.90",
+      "vCBS": "3.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 233, tributada conforme Tributação com alíquotas uniformes - operações do setor financeiro. A base de cálculo utilizada é de R$ 333,33, com alíquota de 0,90%.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 233, tributada conforme Tributação com alíquotas uniformes - operações do setor financeiro. A base de cálculo utilizada é de R$ 333,33, com alíquota de 0,10%.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 233, tributada conforme Tributação com alíquotas uniformes - operações do setor financeiro. A base de cálculo utilizada é de R$ 333,33, com alíquota de 0,00%."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 291,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "011",
+    "cClassTrib": "011005",
+    "baseCalculo": "1000",
+    "ncm": "24022000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "011",
+    "cClassTrib": "011005",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.10",
+      "gRed": {
+       "pRedAliq": "30.00",
+       "pAliqEfet": "0.07"
+      },
+      "vIBSUF": "0.70"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "gRed": {
+       "pRedAliq": "30.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.70",
+     "gCBS": {
+      "pCBS": "0.90",
+      "gRed": {
+       "pRedAliq": "30.00",
+       "pAliqEfet": "0.63"
+      },
+      "vCBS": "6.30"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 243, tributada conforme Tributação com alíquotas uniformes reduzidas em 30%. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de 0,90%, sendo que esse regime define uma redução de 30,00% na alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 243, tributada conforme Tributação com alíquotas uniformes reduzidas em 30%. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de 0,10%, sendo que esse regime define uma redução de 30,00% na alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 243, tributada conforme Tributação com alíquotas uniformes reduzidas em 30%. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de 0,00%, sendo que esse regime define uma redução de 30,00% na alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 485,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "200",
+    "cClassTrib": "200009",
+    "baseCalculo": "0",
+    "ncm": "09024000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "200",
+    "cClassTrib": "200009",
+    "gIBSCBS": {
+     "vBC": "0.00",
+     "gIBSUF": {
+      "pIBSUF": "0.10",
+      "gRed": {
+       "pRedAliq": "100.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "gRed": {
+       "pRedAliq": "100.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.90",
+      "gRed": {
+       "pRedAliq": "100.00",
+       "pAliqEfet": "0.00"
+      },
+      "vCBS": "0.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 146, tributada conforme Alíquota zero. A base de cálculo utilizada é de R$ 0,00, com alíquota de zero.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 146, tributada conforme Alíquota zero. A base de cálculo utilizada é de R$ 0,00, com alíquota de zero.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 146, tributada conforme Alíquota zero. A base de cálculo utilizada é de R$ 0,00, com alíquota de zero."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 582,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "200",
+    "cClassTrib": "200014",
+    "baseCalculo": "1000",
+    "ncm": "07099990"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "200",
+    "cClassTrib": "200014",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.10",
+      "gRed": {
+       "pRedAliq": "100.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "gRed": {
+       "pRedAliq": "100.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.90",
+      "gRed": {
+       "pRedAliq": "100.00",
+       "pAliqEfet": "0.00"
+      },
+      "vCBS": "0.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 148, tributada conforme Alíquota zero. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de zero.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 148, tributada conforme Alíquota zero. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de zero.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 148, tributada conforme Alíquota zero. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de zero."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 679,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "200",
+    "cClassTrib": "200019",
+    "baseCalculo": "0.5",
+    "ncm": "09024000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "200",
+    "cClassTrib": "200019",
+    "gIBSCBS": {
+     "vBC": "0.50",
+     "gIBSUF": {
+      "pIBSUF": "0.10",
+      "gRed": {
+       "pRedAliq": "100.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "gRed": {
+       "pRedAliq": "100.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.90",
+      "gRed": {
+       "pRedAliq": "100.00",
+       "pAliqEfet": "0.00"
+      },
+      "vCBS": "0.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 231, § 1º, II, tributada conforme Alíquota zero. A base de cálculo utilizada é de R$ 0,50, com alíquota de zero.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 231, § 1º, II, tributada conforme Alíquota zero. A base de cálculo utilizada é de R$ 0,50, com alíquota de zero.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 231, § 1º, II, tributada conforme Alíquota zero. A base de cálculo utilizada é de R$ 0,50, com alíquota de zero."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 776,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "200",
+    "cClassTrib": "200022",
+    "baseCalculo": "99.99",
+    "ncm": "24022000",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011004"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "200",
+    "cClassTrib": "200022",
+    "gIBSCBS": {
+     "vBC": "99.99",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011004",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "0.10",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "0.90"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 445, tributada conforme Operação originada fora da ZFM - 200022. A base de cálculo utilizada é de R$ 99,99, com alíquota de zero.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 445, tributada conforme Operação originada fora da ZFM - 200022. A base de cálculo utilizada é de R$ 99,99, com alíquota de zero.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 445, tributada conforme Operação originada fora da ZFM - 200022. A base de cálculo utilizada é de R$ 99,99, com alíquota de zero."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 873,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "200",
+    "cClassTrib": "200024",
+    "baseCalculo": "1000",
+    "ncm": "09024000",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010001"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "200",
+    "cClassTrib": "200024",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010001",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "1.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "9.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 463, tributada conforme Operação originada fora das Áreas de Livre Comércio - 200024. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de zero.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 463, tributada conforme Operação originada fora das Áreas de Livre Comércio - 200024. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de zero.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 463, tributada conforme Operação originada fora das Áreas de Livre Comércio - 200024. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de zero."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 1067,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "200",
+    "cClassTrib": "200031",
+    "baseCalculo": "1000",
+    "ncm": "90251990"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "200",
+    "cClassTrib": "200031",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.10",
+      "gRed": {
+       "pRedAliq": "60.00",
+       "pAliqEfet": "0.04"
+      },
+      "vIBSUF": "0.40"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "gRed": {
+       "pRedAliq": "60.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.40",
+     "gCBS": {
+      "pCBS": "0.90",
+      "gRed": {
+       "pRedAliq": "60.00",
+       "pAliqEfet": "0.36"
+      },
+      "vCBS": "3.60"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 132, tributada conforme Alíquota reduzida em 60%. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de 0,90%, sendo que esse regime define uma redução de 60,00% na alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 132, tributada conforme Alíquota reduzida em 60%. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de 0,10%, sendo que esse regime define uma redução de 60,00% na alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 132, tributada conforme Alíquota reduzida em 60%. A base de cálculo utilizada é de R$ 1.000,00, com alíquota de 0,00%, sendo que esse regime define uma redução de 60,00% na alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 1261,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "200",
+    "cClassTrib": "200039",
+    "baseCalculo": "333.33",
+    "nbs": "111061000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "200",
+    "cClassTrib": "200039",
+    "gIBSCBS": {
+     "vBC": "333.33",
+     "gIBSUF": {
+      "pIBSUF": "0.10",
+      "gRed": {
+       "pRedAliq": "60.00",
+       "pAliqEfet": "0.04"
+      },
+      "vIBSUF": "0.13"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "gRed": {
+       "pRedAliq": "60.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.13",
+     "gCBS": {
+      "pCBS": "0.90",
+      "gRed": {
+       "pRedAliq": "60.00",
+       "pAliqEfet": "0.36"
+      },
+      "vCBS": "1.20"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 139, tributada conforme Alíquota reduzida em 60%. A base de cálculo utilizada é de R$ 333,33, com alíquota de 0,90%, sendo que esse regime define uma redução de 60,00% na alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 139, tributada conforme Alíquota reduzida em 60%. A base de cálculo utilizada é de R$ 333,33, com alíquota de 0,10%, sendo que esse regime define uma redução de 60,00% na alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 139, tributada conforme Alíquota reduzida em 60%. A base de cálculo utilizada é de R$ 333,33, com alíquota de 0,00%, sendo que esse regime define uma redução de 60,00% na alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 1455,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "200",
+    "cClassTrib": "200048",
+    "baseCalculo": "99.99",
+    "nbs": "126011000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "200",
+    "cClassTrib": "200048",
+    "gIBSCBS": {
+     "vBC": "99.99",
+     "gIBSUF": {
+      "pIBSUF": "0.10",
+      "gRed": {
+       "pRedAliq": "40.00",
+       "pAliqEfet": "0.06"
+      },
+      "vIBSUF": "0.06"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "gRed": {
+       "pRedAliq": "40.00",
+       "pAliqEfet": "0.00"
+      },
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.06",
+     "gCBS": {
+      "pCBS": "0.90",
+      "gRed": {
+       "pRedAliq": "40.00",
+       "pAliqEfet": "0.54"
+      },
+      "vCBS": "0.54"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 281, tributada conforme Alíquota reduzida em 40%. A base de cálculo utilizada é de R$ 99,99, com alíquota de 0,90%, sendo que esse regime define uma redução de 40,00% na alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 281, tributada conforme Alíquota reduzida em 40%. A base de cálculo utilizada é de R$ 99,99, com alíquota de 0,10%, sendo que esse regime define uma redução de 40,00% na alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 281, tributada conforme Alíquota reduzida em 40%. A base de cálculo utilizada é de R$ 99,99, com alíquota de 0,00%, sendo que esse regime define uma redução de 40,00% na alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 1649,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "410",
+    "cClassTrib": "410001",
+    "baseCalculo": "1000",
+    "ncm": "24022000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "410",
+    "cClassTrib": "410001",
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 5º, § 1º, I, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 5º, § 1º, I, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 5º, § 1º, I, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 1746,
+   "rotulo": "base",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "410",
+    "cClassTrib": "410006",
+    "baseCalculo": "100"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "410",
+    "cClassTrib": "410006",
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 9º, II, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 100,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 9º, II, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 100,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 9º, II, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 100,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 1843,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "410",
+    "cClassTrib": "410012",
+    "baseCalculo": "0",
+    "ncm": "09024000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "410",
+    "cClassTrib": "410012",
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 26, § 2º, II, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 26, § 2º, II, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 26, § 2º, II, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 1940,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "410",
+    "cClassTrib": "410017",
+    "baseCalculo": "1000",
+    "nbs": "122011100"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "410",
+    "cClassTrib": "410017",
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 171, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 171, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 171, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2037,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "410",
+    "cClassTrib": "410023",
+    "baseCalculo": "99.99"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "410",
+    "cClassTrib": "410023",
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 200, II, a, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 200, II, a, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 200, II, a, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2134,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "510",
+    "cClassTrib": "510001",
+    "baseCalculo": "99.99",
+    "ncm": "24022000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "510",
+    "cClassTrib": "510001",
+    "gIBSCBS": {
+     "vBC": "99.99",
+     "gIBSUF": {
+      "pIBSUF": "0.10",
+      "gDif": {
+       "pDif": "100.00",
+       "vDif": "0.10"
+      },
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "gDif": {
+       "pDif": "100.00",
+       "vDif": "0.00"
+      },
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.90",
+      "gDif": {
+       "pDif": "100.00",
+       "vDif": "0.90"
+      },
+      "vCBS": "0.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 28, § 1º, tributada conforme Diferimento. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 28, § 1º, tributada conforme Diferimento. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 28, § 1º, tributada conforme Diferimento. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2231,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550001",
+    "baseCalculo": "1000",
+    "nbs": "122011100",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010002"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550001",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010002",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "1.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "9.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 82, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 82, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 82, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2328,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550002",
+    "baseCalculo": "0",
+    "nbs": "122011100",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011005"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550002",
+    "gIBSCBS": {
+     "vBC": "0.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011005",
+      "pAliqEfetRegIBSUF": "0.07",
+      "vTribRegIBSUF": "0.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.63",
+      "vTribRegCBS": "0.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 84, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 84, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 84, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2425,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550003",
+    "baseCalculo": "12.35",
+    "nbs": "122011100",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010002"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550003",
+    "gIBSCBS": {
+     "vBC": "12.35",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010002",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "0.01",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "0.11"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 85, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 12,35, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 85, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 12,35, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 85, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 12,35, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2522,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550004",
+    "baseCalculo": "12.35",
+    "nbs": "122011100",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011005"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550004",
+    "gIBSCBS": {
+     "vBC": "12.35",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011005",
+      "pAliqEfetRegIBSUF": "0.07",
+      "vTribRegIBSUF": "0.01",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.63",
+      "vTribRegCBS": "0.08"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 87, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 12,35, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 87, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 12,35, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 87, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 12,35, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2619,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550005",
+    "baseCalculo": "1000",
+    "nbs": "122011100",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010002"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550005",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010002",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "1.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "9.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 87, parágrafo único, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 87, parágrafo único, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 87, parágrafo único, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2716,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550006",
+    "baseCalculo": "1000",
+    "nbs": "122011100",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011005"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550006",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011005",
+      "pAliqEfetRegIBSUF": "0.07",
+      "vTribRegIBSUF": "0.70",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.63",
+      "vTribRegCBS": "6.30"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 88, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 88, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 88, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2813,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550007",
+    "baseCalculo": "12.35",
+    "nbs": "110014000",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010002"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550007",
+    "gIBSCBS": {
+     "vBC": "12.35",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010002",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "0.01",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "0.11"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 90, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 12,35, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 90, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 12,35, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 90, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 12,35, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 2910,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550008",
+    "baseCalculo": "0.5",
+    "nbs": "109012100",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011005"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550008",
+    "gIBSCBS": {
+     "vBC": "0.50",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011005",
+      "pAliqEfetRegIBSUF": "0.07",
+      "vTribRegIBSUF": "0.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.63",
+      "vTribRegCBS": "0.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 93, I, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,50, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 93, I, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,50, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 93, I, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,50, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3007,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550009",
+    "baseCalculo": "333.33",
+    "nbs": "114032222",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010002"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550009",
+    "gIBSCBS": {
+     "vBC": "333.33",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010002",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "0.33",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "3.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 93, II, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 333,33, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 93, II, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 333,33, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 93, II, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 333,33, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3104,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550010",
+    "baseCalculo": "0.5",
+    "nbs": "112021000",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011005"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550010",
+    "gIBSCBS": {
+     "vBC": "0.50",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011005",
+      "pAliqEfetRegIBSUF": "0.07",
+      "vTribRegIBSUF": "0.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.63",
+      "vTribRegCBS": "0.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 93, III, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,50, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 93, III, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,50, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 93, III, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,50, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3201,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550011",
+    "baseCalculo": "1000",
+    "nbs": "114041900",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010002"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550011",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010002",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "1.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "9.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 93, IV e Art. 93, § 4º, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 93, IV e Art. 93, § 4º, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 93, IV e Art. 93, § 4º, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3298,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550012",
+    "baseCalculo": "1000",
+    "nbs": "111033610",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011005"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550012",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011005",
+      "pAliqEfetRegIBSUF": "0.07",
+      "vTribRegIBSUF": "0.70",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.63",
+      "vTribRegCBS": "6.30"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 93, V, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 93, V, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 93, V, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3492,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550015",
+    "baseCalculo": "99.99",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010001"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550015",
+    "gIBSCBS": {
+     "vBC": "99.99",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010001",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "0.10",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "0.90"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 105, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 105, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 105, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3589,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550016",
+    "baseCalculo": "1000",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011004"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550016",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011004",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "1.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "9.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 106, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 106, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 106, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3686,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550017",
+    "baseCalculo": "0",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010001"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550017",
+    "gIBSCBS": {
+     "vBC": "0.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010001",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "0.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "0.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 107, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 107, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 107, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3783,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550018",
+    "baseCalculo": "1234567.89",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011004"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550018",
+    "gIBSCBS": {
+     "vBC": "1234567.89",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011004",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "1234.57",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "11111.11"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 109, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.234.567,89, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 109, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.234.567,89, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 109, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.234.567,89, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3880,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550019",
+    "baseCalculo": "1000",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010001"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550019",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010001",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "1.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "9.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 443, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 443, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 443, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 3977,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550020",
+    "baseCalculo": "1000",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011004"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550020",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011004",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "1.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "9.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 461, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 461, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 461, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 4074,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550021",
+    "baseCalculo": "1000",
+    "ncm": "09024000",
+    "tributacaoRegular": {
+     "cst": "010",
+     "cClassTrib": "010001"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550021",
+    "gIBSCBS": {
+     "vBC": "1000.00",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "010",
+      "cClassTribReg": "010001",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "1.00",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "9.00"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 82, § 11, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 82, § 11, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 82, § 11, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 4365,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "820",
+    "cClassTrib": "820001",
+    "baseCalculo": "1234567.89"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "820",
+    "cClassTrib": "820001",
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 234, tributada conforme Tributação em documento específico. A base de cálculo utilizada é de R$ 1.234.567,89, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 234, tributada conforme Tributação em documento específico. A base de cálculo utilizada é de R$ 1.234.567,89, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 234, tributada conforme Tributação em documento específico. A base de cálculo utilizada é de R$ 1.234.567,89, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 4462,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "820",
+    "cClassTrib": "820006",
+    "baseCalculo": "0",
+    "ncm": "24022000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "820",
+    "cClassTrib": "820006",
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 11, VIII, tributada conforme Tributação em documento específico. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 11, VIII, tributada conforme Tributação em documento específico. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 11, VIII, tributada conforme Tributação em documento específico. A base de cálculo utilizada é de R$ 0,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 4559,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "410",
+    "cClassTrib": "410030",
+    "baseCalculo": "1000",
+    "nbs": "115030000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "410",
+    "cClassTrib": "410030",
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 47, § 6º, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 47, § 6º, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 47, § 6º, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.000,00, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 4656,
+   "rotulo": "principal",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "410",
+    "cClassTrib": "410032",
+    "baseCalculo": "1234567.89",
+    "ncm": "09024000"
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "410",
+    "cClassTrib": "410032",
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 12, §2º V, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.234.567,89, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 12, §2º V, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.234.567,89, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 12, §2º V, tributada conforme Imunidade e não incidência. A base de cálculo utilizada é de R$ 1.234.567,89, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ },
+ {
+  "caso": {
+   "id": 4753,
+   "rotulo": "suspensao",
+   "data": "2026-01-01",
+   "item": {
+    "cst": "550",
+    "cClassTrib": "550022",
+    "baseCalculo": "99.99",
+    "ncm": "09024000",
+    "tributacaoRegular": {
+     "cst": "011",
+     "cClassTrib": "011004"
+    }
+   }
+  },
+  "oficial": {
+   "IBSCBS": {
+    "CST": "550",
+    "cClassTrib": "550022",
+    "gIBSCBS": {
+     "vBC": "99.99",
+     "gIBSUF": {
+      "pIBSUF": "0.00",
+      "vIBSUF": "0.00"
+     },
+     "gIBSMun": {
+      "pIBSMun": "0.00",
+      "vIBSMun": "0.00"
+     },
+     "vIBS": "0.00",
+     "gCBS": {
+      "pCBS": "0.00",
+      "vCBS": "0.00"
+     },
+     "gTribRegular": {
+      "CSTReg": "011",
+      "cClassTribReg": "011004",
+      "pAliqEfetRegIBSUF": "0.10",
+      "vTribRegIBSUF": "0.10",
+      "pAliqEfetRegIBSMun": "0.00",
+      "vTribRegIBSMun": "0.00",
+      "pAliqEfetRegCBS": "0.90",
+      "vTribRegCBS": "0.90"
+     }
+    },
+    "memoriaCalculo": {
+     "cbs": "Operação de consumo com enquadramento legal em Art. 106, § 7º, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota.",
+     "ibsUF": "Operação de consumo com enquadramento legal em Art. 106, § 7º, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota.",
+     "ibsMun": "Operação de consumo com enquadramento legal em Art. 106, § 7º, tributada conforme Suspensão. A base de cálculo utilizada é de R$ 99,99, sendo que esta operação não possui alíquota."
+    }
+   }
+  }
+ }
+]

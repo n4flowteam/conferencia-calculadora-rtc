@@ -1,0 +1,4 @@
+versão V0073 | classificações 202 | ncm(8) 10521 | nbs(9) 920
+
+added 1 package in 641ms
+casos: 200252 | datas fixas: 12 | datas de borda: 27

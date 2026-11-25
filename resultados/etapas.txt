@@ -1,3 +1,6 @@
-início 2026-11-25T14:38:10Z
+início 2026-11-25T14:43:52Z
 clone ok
 flyway ok
+api ok
+casos ok
+conferência ok 2026-11-25T14:48:13Z

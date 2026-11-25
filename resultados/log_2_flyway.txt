@@ -58,7 +58,7 @@ OpenJDK 64-Bit Server VM Temurin-25.0.5+8 (build 25.0.5+8-LTS, mixed mode, shari
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  12.727 s
-[INFO] Finished at: 2026-11-25T14:38:29Z
+[INFO] Total time:  12.649 s
+[INFO] Finished at: 2026-11-25T14:44:08Z
 [INFO] ------------------------------------------------------------------------
--rw-r--r-- 1 runner runner 5.5M Nov 25 14:38 ./calculadora/db/calculadora-pro.db
+-rw-r--r-- 1 runner runner 5.5M Nov 25 14:44 ./calculadora/db/calculadora-pro.db

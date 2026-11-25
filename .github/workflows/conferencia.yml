@@ -43,10 +43,10 @@ jobs:
           JAR=$(ls target/*.jar | grep -v plain | head -1); echo "jar: $JAR" | tee -a ../resultados/log_3_build.txt
           nohup java -jar "$JAR" --spring.profiles.active=offline > ../api.log 2>&1 &
           for i in $(seq 1 120); do
-            if curl -sf http://localhost:8080/api/versao > ../resultados/versao_api.json; then echo "API no ar após $((i*2))s" | tee -a ../resultados/log_3_build.txt; break; fi
+            if curl -sf http://localhost:8080/api/calculadora/dados-abertos/versao > ../resultados/versao_api.json; then echo "API no ar após $((i*2))s" | tee -a ../resultados/log_3_build.txt; break; fi
             sleep 2
           done
-          curl -sf http://localhost:8080/api/versao > /dev/null || (tail -120 ../api.log | tee -a ../resultados/log_3_build.txt; exit 1)
+          curl -sf http://localhost:8080/api/calculadora/dados-abertos/versao > /dev/null || (tail -120 ../api.log | tee -a ../resultados/log_3_build.txt; exit 1)
           echo "api ok" >> ../resultados/etapas.txt
       - uses: actions/setup-node@v4
         with: { node-version: "22" }

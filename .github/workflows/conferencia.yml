@@ -1,0 +1,73 @@
+name: Conferência com a calculadora oficial
+on:
+  push:
+    branches: [main]
+    paths: ["harness/**", ".github/workflows/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: conferencia, cancel-in-progress: true }
+defaults:
+  run:
+    shell: bash
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      COMMIT_OFICIAL: f1eebd7
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preparar pasta de resultados
+        run: rm -rf resultados && mkdir -p resultados && echo "início $(date -u +%FT%TZ)" > resultados/etapas.txt
+      - name: Baixar a calculadora oficial (ReceitaFederal/calculadora-rtc-regime-regular)
+        run: |
+          git clone https://github.com/ReceitaFederal/calculadora-rtc-regime-regular.git oficial 2>&1 | tee resultados/log_1_clone.txt
+          git -C oficial checkout "$COMMIT_OFICIAL" 2>&1 | tee -a resultados/log_1_clone.txt
+          git -C oficial log -1 --format='%H %ci %s' | tee resultados/versao_oficial.txt
+          echo "clone ok" >> resultados/etapas.txt
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: "25", cache: maven, cache-dependency-path: oficial/pom.xml }
+      - name: Gerar o banco como no README oficial (flyway:migrate)
+        working-directory: oficial
+        run: |
+          java -version 2>&1 | tee ../resultados/log_2_flyway.txt
+          mkdir -p ./calculadora/db
+          ./mvnw flyway:migrate -Dflyway.configFiles=./flyway/flyway-pro.conf --batch-mode --errors 2>&1 | tail -60 | tee -a ../resultados/log_2_flyway.txt
+          ls -lah ./calculadora/db/calculadora-pro.db | tee -a ../resultados/log_2_flyway.txt
+          echo "flyway ok" >> ../resultados/etapas.txt
+      - name: Compilar e subir a API oficial (perfil offline)
+        working-directory: oficial
+        run: |
+          ./mvnw -B -DskipTests package 2>&1 | tail -40 | tee ../resultados/log_3_build.txt
+          JAR=$(ls target/*.jar | grep -v plain | head -1); echo "jar: $JAR" | tee -a ../resultados/log_3_build.txt
+          nohup java -jar "$JAR" --spring.profiles.active=offline > ../api.log 2>&1 &
+          for i in $(seq 1 120); do
+            if curl -sf http://localhost:8080/api/versao > ../resultados/versao_api.json; then echo "API no ar após $((i*2))s" | tee -a ../resultados/log_3_build.txt; break; fi
+            sleep 2
+          done
+          curl -sf http://localhost:8080/api/versao > /dev/null || (tail -120 ../api.log | tee -a ../resultados/log_3_build.txt; exit 1)
+          echo "api ok" >> ../resultados/etapas.txt
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Exportar as regras do banco oficial e gerar os casos
+        run: |
+          mkdir -p harness/data
+          python3 harness/export_v2.py oficial/calculadora/db/calculadora-pro.db harness/data 2>&1 | tee resultados/log_4_casos.txt
+          cp harness/data/regras.json resultados/regras_flyway.json
+          (cd harness && npm install --no-audit --no-fund 2>&1 | tail -5) | tee -a resultados/log_4_casos.txt
+          node harness/gerar_casos.js harness/data/regras.json harness/data/nomenclaturas.json resultados/casos.json 2>&1 | tee -a resultados/log_4_casos.txt
+          echo "casos ok" >> resultados/etapas.txt
+      - name: Conferir cada caso (API oficial x motor do app)
+        run: |
+          node harness/conferir.js harness/data/regras.json harness/data/nomenclaturas.json resultados/casos.json resultados http://localhost:8080/api/calculadora/regime-geral 2>&1 | tee resultados/log_5_conferencia.txt
+          echo "conferência ok $(date -u +%FT%TZ)" >> resultados/etapas.txt
+      - name: Publicar os resultados neste repositório
+        if: always()
+        run: |
+          tail -300 api.log > resultados/api_log_final.txt 2>/dev/null || true
+          gzip -f resultados/casos.json 2>/dev/null || true
+          git config user.name "conferencia-bot"; git config user.email "conferencia-bot@users.noreply.github.com"
+          git add resultados
+          git commit -m "Resultados da conferência ($(date -u +%Y-%m-%dT%H:%MZ))" || echo "nada a commitar"
+          git pull --rebase origin main && git push origin HEAD:main

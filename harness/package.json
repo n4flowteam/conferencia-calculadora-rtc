@@ -1,0 +1,1 @@
+{ "name": "conferencia-calculadora-rtc", "private": true, "version": "1.0.0", "dependencies": { "decimal.js": "10.4.3" } }
